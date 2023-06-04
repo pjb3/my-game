@@ -16,7 +16,14 @@
         What is your name?
         <input bind:value={name} />
       </label>
+      <br />
       <button type="submit">Submit</button>
     </form>
   {/if}
 </main>
+
+<style>
+  button {
+    margin-top: 1rem;
+  }
+</style>
